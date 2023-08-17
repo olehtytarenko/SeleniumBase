@@ -11,6 +11,6 @@ class CalculatorTests(BaseCase):
         self.click('button[id="7"]')
         self.click("button#add")
         self.click('button[id="1"]')
-        self.click('button[id="2"]')
         self.click("button#equal")
+        self.click('button[id="9"]')
         self.assert_exact_text("54", "input#output")
